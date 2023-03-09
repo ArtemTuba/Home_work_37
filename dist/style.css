@@ -1,0 +1,27 @@
+.items {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+}
+
+.name__pokemon {
+  margin: 5px;
+  border: solid 1px black;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.name__pokemon:hover {
+  background-color: rgb(105, 105, 222);
+  transition: all 0.5s;
+}
+
+.pop {
+  border: solid 1px black;
+  width: 200px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
